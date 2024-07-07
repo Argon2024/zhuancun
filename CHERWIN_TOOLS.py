@@ -341,7 +341,7 @@ def CHECK():
     print('>>>>>>>开始获取版本信息...')
     baseurl = 'https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/'
     TOOLS_NAME = 'CHERWIN_TOOLS.py'
-    server_script_url = f'https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/{TOOLS_NAME}'
+    server_script_url = f'https://github.com/Argon2024/zhuancun/raw/main/{TOOLS_NAME}'
     try:
         response = requests.get(f'{baseurl}CHERWIN_SCRIPT_CONFIG.json', verify=False)
         response.encoding = 'utf-8'
